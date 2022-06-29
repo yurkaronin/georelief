@@ -1,0 +1,6 @@
+{
+    "name": "pmkgrp/amo",
+    "require": {
+        "andrey-tech/amocrm-api-php": "^2.7"
+    }
+}
