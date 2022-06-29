@@ -8,6 +8,7 @@
 // вспомогательные
 @import "parts/support/list-reset";
 @import "parts/support/visually-hidden";
+@import "parts/support/animation";
 // блоки
 @import "parts/blocks/wrapper";
 @import "parts/blocks/button";
@@ -17,5 +18,6 @@
 
 // смысловые секции
 @import "parts/sections/new-header";
+@import "parts/sections/first-screen";
 // спец стили для активных классов
-@import "parts/special/js-menu-active";
+@import "parts/special/js-menu-fixed";

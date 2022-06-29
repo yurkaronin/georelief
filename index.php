@@ -46,53 +46,40 @@
   <header class="new-header">
     <div class="wrapper">
       <div class="new-header__flex">
-
-        <div class="new-header__top">
-          <div class="new-header__logo">
-            <img src="img/new/logo/1.png" alt="логотип" width="105">
-          </div>
-
-          <div class="new-header__nav">
-            <ul class="new-nav-list list-reset">
-              <li><a class="new-header__link" href="">Услуги</a></li>
-              <li><a class="new-header__link"  href="">О компании</a></li>
-              <li><a class="new-header__link" href="">Наши работы</a></li>
-              <li><a class="new-header__link" href="">Контакты</a></li>
-            </ul>
-          </div>
-
-          <div class="new-header__cont">
-            <a class="new-header__link" href="tel:88612907722">+7 (861) 290-77-22</a>
-            <a class="new-header__link new-header__link--mod" href="#">Заказать звонок</a>
-          </div>
-
+        <div class="new-header__logo">
+          <img src="img/new/logo/1.png" alt="логотип" width="105">
         </div>
 
-        <div class="new-header__bottom">
-          <h1 class="new-header__title title">Инженерные изыскания, геодезические и кадастровые работы в Краснодаре и Краснодарском крае</h1>
+        <nav class="new-header__nav">
+          <ul class="new-nav-list list-reset">
+            <li><a class="new-header__link" href="">Услуги</a></li>
+            <li><a class="new-header__link" href="">О компании</a></li>
+            <li><a class="new-header__link" href="">Наши работы</a></li>
+            <li><a class="new-header__link" href="">Контакты</a></li>
+          </ul>
+        </nav>
 
-          <a href="#" class="button">Заказать консультацию</a>
+        <div class="new-header__cont">
+          <a class="new-header__link" href="tel:88612907722">+7 (861) 290-77-22</a>
+          <a class="new-header__link new-header__link--mod" href="#">Заказать звонок</a>
         </div>
-
       </div>
     </div>
   </header>
 
-
-   <nav class="new-navigation">
-    <div class="wrapper">
-      <ul class="new-nav-list list-reset">
-        <li><a href="">Услуги</a></li>
-        <li><a href="">О компании</a></li>
-        <li><a href="">Наши работы</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
-    </div>
-  </nav>
-
-
   <main>
+    <section class="first-screen">
+      <div class="wrapper">
+        <div class="first-screen__content">
+          <h1 class="first-screen__title title">Инженерные изыскания, геодезические и кадастровые работы в Краснодаре
+            и Краснодарском крае</h1>
 
+          <a href="#" class="first-screen__button button">Заказать консультацию</a>
+        </div>
+
+      </div>
+      </div>
+    </section>
 
     <section class="new-services">
       <h1>Новый блок с услугами</h1>
