@@ -1,0 +1,60 @@
+.js-menu-fixed {
+
+  @media (min-width: 1200px) {
+    .header__navigation {
+      position: sticky;
+      top: 0;
+      background-color: #ffffff;
+      animation-name: show-header;
+      animation-duration: 0.4s;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .navigation__logo {
+      display: block;
+    }
+
+  }
+
+  @media (max-width: 1200px) {
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background-color: #fff;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+      animation-name: show-header;
+      animation-duration: 0.4s;
+    }
+
+    .header__navigation {
+      position: fixed;
+      top: 70px;
+    }
+
+    &.js-menu-active {
+      .header {
+        box-shadow: none;
+      }
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .header__navigation {
+      min-height: 100vh;
+      overflow: auto;
+      padding-bottom: 120px;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .header__navigation {
+      padding-top: 20px;
+      padding-bottom: 80px;
+    }
+  }
+
+
+
+}

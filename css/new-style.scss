@@ -1,0 +1,15 @@
+
+// переменные
+@import "parts/support/variables";
+// шрифты локально
+@import "parts/support/fonts";
+// вспомогательные
+@import "parts/support/normalize";
+@import "parts/support/global";
+// смысловые секции
+@import "parts/support/global";
+// блоки
+@import "parts/blocks/wrapper";
+@import "parts/blocks/button";
+@import "parts/blocks/title";
+

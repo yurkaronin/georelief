@@ -24,6 +24,9 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/style.css?v=7">
 
+  <!-- новые стили  -->
+  <link rel="stylesheet" href="css/new-style.css">
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -74,6 +77,7 @@
   <main>
     <section class="new-hero">
       <h1>Первый экран</h1>
+      <a href="#" class="button">Заказать консультацию</a>
     </section>
 
     <section class="new-services">
@@ -385,32 +389,6 @@
   </div>
   <!-- //Modals -->
 
-
-
-  <script type="text/javascript">
-  (function(m, e, t, r, i, k, a) {
-    m[i] = m[i] || function() {
-      (m[i].a = m[i].a || []).push(arguments)
-    };
-    m[i].l = 1 * new Date();
-    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-  })
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-  ym(70182799, "init", {
-    clickmap: true,
-    trackLinks: true,
-    accurateTrackBounce: true,
-    webvisor: true
-  });
-  </script>
-  <noscript>
-    <div><img src="https://mc.yandex.ru/watch/70182799" style="position:absolute; left:-9999px;" alt="" /></div>
-  </noscript>
-
-
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-184931141-1">
-  </script>
   <script>
   window.dataLayer = window.dataLayer || [];
 

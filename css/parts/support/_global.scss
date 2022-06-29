@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-style: normal;
+  overflow-x: hidden;
+  font-family: var(--ff-1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--col-2);
+  position: relative;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+input,
+textarea,
+a,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+}
+
+:focus {
+  outline-style: none;
+  outline-width: 0px !important;
+  outline-color: none !important;
+}

@@ -1,0 +1,52 @@
+.js-menu-active {
+  overflow: hidden;
+
+  .button--nav {
+    span {
+      background-color: transparent;
+
+      &::after {
+        transform: rotate(-45deg);
+        top: 0;
+        width: 100%;
+      }
+
+      &::before {
+        transform: rotate(45deg);
+        top: 0;
+        width: 100%;
+
+      }
+    }
+
+  }
+
+  .header {
+    &::after {
+      content: '';
+      display: block;
+      background-color: var(--col6);
+      width: calc(100% - 80px);
+      position: absolute;
+      bottom: 0;
+      left: 40px;
+      height: 1px;
+    }
+  }
+
+  .header__navigation {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 650px) {
+  .js-menu-active {
+
+    .header {
+      &::after {
+        width: calc(100% - 40px);
+        left: 20px;
+      }
+    }
+  }
+}
