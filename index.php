@@ -33,34 +33,9 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-
-  <!-- Google Tag Manager -->
-  <script>
-  (function(w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({
-      'gtm.start': new Date().getTime(),
-      event: 'gtm.js'
-    });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.async = true;
-    j.src =
-      'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-NL8JVTT');
-  </script>
-  <!-- End Google Tag Manager -->
-
 </head>
 
 <body>
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL8JVTT" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
   <div class="soc-widget">
     <!--<a href="https://instagram.com/geo_relief" target="_blank"><img src="img/soc-in.svg" alt=""></a>-->
@@ -69,16 +44,55 @@
   </div>
 
   <header class="new-header">
-    <h1>Новая шапка сайта</h1>
+    <div class="wrapper">
+      <div class="new-header__flex">
+
+        <div class="new-header__top">
+          <div class="new-header__logo">
+            <img src="img/new/logo/1.png" alt="логотип" width="105">
+          </div>
+
+          <div class="new-header__nav">
+            <ul class="new-nav-list list-reset">
+              <li><a class="new-header__link" href="">Услуги</a></li>
+              <li><a class="new-header__link"  href="">О компании</a></li>
+              <li><a class="new-header__link" href="">Наши работы</a></li>
+              <li><a class="new-header__link" href="">Контакты</a></li>
+            </ul>
+          </div>
+
+          <div class="new-header__cont">
+            <a class="new-header__link" href="tel:88612907722">+7 (861) 290-77-22</a>
+            <a class="new-header__link new-header__link--mod" href="#">Заказать звонок</a>
+          </div>
+
+        </div>
+
+        <div class="new-header__bottom">
+          <h1 class="new-header__title title">Инженерные изыскания, геодезические и кадастровые работы в Краснодаре и Краснодарском крае</h1>
+
+          <a href="#" class="button">Заказать консультацию</a>
+        </div>
+
+      </div>
+    </div>
   </header>
-  <nav class="new-navigation">
-    <h1>Новая навигация сайта</h1>
+
+
+   <nav class="new-navigation">
+    <div class="wrapper">
+      <ul class="new-nav-list list-reset">
+        <li><a href="">Услуги</a></li>
+        <li><a href="">О компании</a></li>
+        <li><a href="">Наши работы</a></li>
+        <li><a href="">Контакты</a></li>
+      </ul>
+    </div>
   </nav>
+
+
   <main>
-    <section class="new-hero">
-      <h1>Первый экран</h1>
-      <a href="#" class="button">Заказать консультацию</a>
-    </section>
+
 
     <section class="new-services">
       <h1>Новый блок с услугами</h1>

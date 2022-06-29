@@ -1,15 +1,21 @@
 
 // переменные
 @import "parts/support/variables";
-// шрифты локально
-@import "parts/support/fonts";
+// шрифты базовые
+@import "parts/base/fonts";
+@import "parts/base/normalize";
+@import "parts/base/global";
 // вспомогательные
-@import "parts/support/normalize";
-@import "parts/support/global";
-// смысловые секции
-@import "parts/support/global";
+@import "parts/support/list-reset";
+@import "parts/support/visually-hidden";
 // блоки
 @import "parts/blocks/wrapper";
 @import "parts/blocks/button";
 @import "parts/blocks/title";
+@import "parts/blocks/new-nav-list";
+@import "parts/blocks/new-navigation";
 
+// смысловые секции
+@import "parts/sections/new-header";
+// спец стили для активных классов
+@import "parts/special/js-menu-active";
