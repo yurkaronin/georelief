@@ -9,3 +9,5 @@ function include(url) {
 }
 
 include("./js/parts/fixed-header.js");
+
+include("./js/parts/sliders.js");

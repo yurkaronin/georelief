@@ -1,0 +1,23 @@
+.section-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 34px;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    width: 120px;
+    background-color: var(--col-4);
+    bottom: 0;
+  }
+  .title {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 48px;
+  }
+}
