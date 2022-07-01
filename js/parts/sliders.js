@@ -4,10 +4,10 @@ const sliderPortfolio = new Swiper('.js-slider-portfolio', {
   loop: true,
     // autoplay: true,
   grabCursor: true,
-  autoHeight: true,
+  // autoHeight: true,
   slidesPerView: "auto",
-  // spaceBetween: 32,a
-  // centeredSlides: true,
+  // spaceBetween: 40,
+  centeredSlides: true,
   pagination: {
     el: ".new-portfolio .swiper-pagination",
     clickable: true,

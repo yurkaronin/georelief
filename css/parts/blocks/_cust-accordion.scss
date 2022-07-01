@@ -1,0 +1,143 @@
+.cust-accordion {
+  background: var(--col-1);
+  border: 1px solid;
+  border-color: var(--col-6);
+  transition: all 3s;
+
+  &__button {
+    background: #F4F8FB;
+    border: 1px solid #D4D7DB;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    transition: all .3s;
+
+
+  }
+
+  &__button-name {
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1;
+      text-transform: uppercase;
+      color: #1A1B1F;
+    }
+
+    b {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1;
+      text-align: right;
+      color: #1A1B1F;
+    }
+  }
+
+  &__icon {
+    border-left: 1px solid;
+    border-color: #D4D7DB;
+    padding: 27px 24px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    transition: all .3s;
+
+    svg {
+      transition: all .3s;
+    }
+  }
+
+  &__content-image {
+    padding: 30px;
+    border-bottom: 1px solid;
+    border-color: var(--col-6);
+  }
+
+  &__content-body {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__content-text {
+    padding: 30px;
+    padding-right: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5F6063;
+
+    &:last-child {
+      padding-right: 30px;
+      padding-left: 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      color: #5F6063;
+      padding-left: 17px;
+    }
+
+    li {
+      color: #5F6063;
+      margin-bottom: 20px;
+    }
+
+    li::marker {
+      color: #1A1B1F;
+    }
+  }
+
+  &__content-footer {
+    padding-bottom: 38px;
+  }
+}
+
+
+// активности
+
+.cust-accordion.show {
+
+  .cust-accordion__button {
+    border-bottom: 1px solid #D4D7DB;
+  }
+
+  .cust-accordion__icon {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+
+}
+
+.cust-accordion.show {
+  .cust-accordion__icon::after {
+    transform: rotate(180deg);
+  }
+
+}
+
+.cust-accordion__content {
+  max-height: 0;
+  pointer-events: none;
+  overflow: hidden;
+  transition: max-height 0.5s;
+
+  &.collapse {
+    max-height: 10000px;
+    pointer-events: initial;
+    transition: max-height 0.7s;
+  }
+}

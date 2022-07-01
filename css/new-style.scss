@@ -17,11 +17,16 @@
 @import "parts/blocks/new-navigation";
 @import "parts/blocks/section-title";
 @import "parts/blocks/new-slider";
+@import "parts/blocks/section-footer";
+@import "parts/blocks/cust-accordion";
 
 
 
 // смысловые секции
 @import "parts/sections/new-header";
 @import "parts/sections/first-screen";
+@import "parts/sections/new-portfolio";
+@import "parts/sections/new-services";
+
 // спец стили для активных классов
 @import "parts/special/js-menu-fixed";
