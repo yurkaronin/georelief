@@ -1,44 +1,16 @@
-@font-face {
-  font-family: 'DaxlineCyr-Regular';
-  src: url('../fonts/DaxlineCyr-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/DaxlineCyr-Regular.otf')  format('opentype'),
-	     url('../fonts/DaxlineCyr-Regular.woff') format('woff'), url('../fonts/DaxlineCyr-Regular.ttf')  format('truetype'), url('../fonts/DaxlineCyr-Regular.svg#DaxlineCyr-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'DaxlineCyr-Medium';
-  src: url('../fonts/DaxlineCyr-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/DaxlineCyr-Medium.otf')  format('opentype'),
-	     url('../fonts/DaxlineCyr-Medium.woff') format('woff'), url('../fonts/DaxlineCyr-Medium.ttf')  format('truetype'), url('../fonts/DaxlineCyr-Medium.svg#DaxlineCyr-Medium') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'DaxlineCyr-Light';
-  src: url('../fonts/DaxlineCyr-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/DaxlineCyr-Light.otf')  format('opentype'),
-	     url('../fonts/DaxlineCyr-Light.woff') format('woff'), url('../fonts/DaxlineCyr-Light.ttf')  format('truetype'), url('../fonts/DaxlineCyr-Light.svg#DaxlineCyr-Light') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'DaxlineCyr-Bold';
-  src: url('../fonts/DaxlineCyr-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/DaxlineCyr-Bold.otf')  format('opentype'),
-	     url('../fonts/DaxlineCyr-Bold.woff') format('woff'), url('../fonts/DaxlineCyr-Bold.ttf')  format('truetype'), url('../fonts/DaxlineCyr-Bold.svg#DaxlineCyr-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Oranienbaum';
-  src: url('../fonts/Oranienbaum.eot?#iefix') format('embedded-opentype'),  url('../fonts/Oranienbaum.woff') format('woff'), url('../fonts/Oranienbaum.ttf')  format('truetype'), url('../fonts/Oranienbaum.svg#Oranienbaum') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-/*
+:root {
+    --ff-1: "Inter", sans-serif;
+    --col-1: #ffffff;
+    --col-2: #5F6063;
+    --col-3: #1a1b1f;
+    --col-4: #00b6df;
+    --col-5: #ddddde;
+    --col-6: #d4d7db;
+  }
+  /*
 font-family: 'DaxlineCyr-Regular', sans-serif;
 font-family: 'DaxlineCyr-Light', sans-serif;
-font-family: 'DaxlineCyr-Medium', sans-serif;
+font-family: var(--ff-1);
 font-family: 'DaxlineCyr-Bold', sans-serif;
 
 font-family: 'Oranienbaum', sans-serif;
@@ -59,7 +31,7 @@ figure, figcaption, footer, header, hgroup,
 main, menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	color: #2d2d2d;
-	font-family: 'DaxlineCyr-Regular', Arial, sans-serif;
+	font-family: var(--ff-1);
 }
 
 table {
@@ -128,7 +100,7 @@ a {
     border-radius: 100px;
     padding: 25px 60px;
     font-size: 16px;
-    font-family: 'DaxlineCyr-Light', sans-serif;
+    font-family: var(--ff-1);
     font-weight: lighter;
     background: linear-gradient(to bottom, #00b6df, #0892a6);
 }
@@ -157,7 +129,7 @@ a {
 }
 .button .btn {}
 .button span {
-	font-family: 'DaxlineCyr-Medium', sans-serif;
+	font-family: var(--ff-1);
     display: block;
     font-size: 22px;
     margin: 20px 0;
@@ -174,7 +146,7 @@ a {
     font-size: 30px;
     margin: 10px 0;
     line-height: 1.2;
-    font-family: 'DaxlineCyr-Medium', sans-serif;
+    font-family: var(--ff-1);
     font-weight: normal;
 }
 .heading h2 span {
@@ -248,7 +220,7 @@ a {
     margin-top: 30px;
 }
 #header .phone {
-    font-family: 'DaxlineCyr-Medium', sans-serif;
+    font-family: var(--ff-1);
     font-size: 18px;
     display: inline-block;
     vertical-align: middle;
@@ -920,7 +892,7 @@ a {
 	max-width: 660px;
 }
 .modal h2 {
-	font-family: 'DaxlineCyr-Medium', sans-serif;
+	font-family: var(--ff-1);
 	font-size: 26px;
 	margin: 0 0 30px;
 	font-weight: normal;
