@@ -58,8 +58,8 @@ $(document).ready(function() {
 	});
 
 
-	$("#cases").on('click', '.more', function(e) {
-		var target = $(this);
+	$("#cases .more").on('click', function(e) {
+		var target = $(e.target);
 		var href = target.attr('href');
 		$.fancybox.open({
 			href: href,

@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "39854e346df8cd114f78cadc30de03c9",
+    "packages": [
+        {
+            "name": "andrey-tech/amocrm-api-php",
+            "version": "2.15.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrey-tech/amocrm-api-php.git",
+                "reference": "d6a7cb461836a6fc331dbfe670aa7a72788eafed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrey-tech/amocrm-api-php/zipball/d6a7cb461836a6fc331dbfe670aa7a72788eafed",
+                "reference": "d6a7cb461836a6fc331dbfe670aa7a72788eafed",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AmoCRM\\": "src/AmoCRM"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "andrey-tech",
+                    "homepage": "https://github.com/andrey-tech/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Обертка для работы с API v2 amoCRM с авторизацией по протоколу oAuth 2.0 или по API-ключу пользователя, троттлингом запросов, блокировкой одновременного обновления одной сущности и логированием запросов/ответов к API в файл",
+            "homepage": "https://github.com/andrey-tech/amocrm-api-php",
+            "keywords": [
+                "amoCRM",
+                "api",
+                "api-wrapper",
+                "crm",
+                "logging",
+                "oauth2",
+                "throttling"
+            ],
+            "time": "2020-08-17T12:41:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

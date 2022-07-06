@@ -1,0 +1,19 @@
+root = true
+
+[*]
+<!-- набор символов -->
+charset = utf-8
+
+end_of_line = lf
+<!-- размер отступа -->
+indent_size = 2
+<!-- стиль отступа -->
+indent_style = space
+<!-- вставить последний символ новой строки -->
+insert_final_newline = true
+<!-- обрезать конечный пробел -->
+trim_trailing_whitespace = true
+
+[*.md]
+<!-- не обрезать конечные пробелы для файлов с разрешением .md -->
+trim_trailing_whitespace = false
